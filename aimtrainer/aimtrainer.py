@@ -134,7 +134,7 @@ else:
         #Twitter Poster
         oauth = OAuth()
         api = tweepy.API(oauth)
-        api.update_status("i smell bad)
+        api.update_status("i smell bad")
     
     ending = font.render(end_text, True, (0, 0, 0))
     win.blit(ending, (200, 425))
